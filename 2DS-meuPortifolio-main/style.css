@@ -2,14 +2,31 @@ body{
     background-color: black;
     color: #fff;
     font-family: sans-serif;
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: ;
+}
+.container{
+    display: flex;
 }
 
 .destaque{
     color: #22D4FD;
 }
 
+.botoes{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
 .botoes a{
     color: white;
+    display: flex;
     background-color: #22D4FD;
     text-decoration: none;
     padding: 15px 40px;
